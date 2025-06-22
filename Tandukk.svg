@@ -71,10 +71,7 @@
               .cls-20,
               .cls-21 {
                 stroke-width: 0.74px;
-                <!-- fill: red; -->
-                <!-- transform: rotate(5deg); -->
                 transform-origin: top right;
-                <!-- transform-box: fill-box; -->
                 animation: swingWave 2s ease-in-out forwards;
               }
 
@@ -121,10 +118,7 @@
               .cls-19,
               .cls-23 {
                 stroke-width: 0.71px;
-                <!-- fill: green; -->
-                <!-- transform: rotate(5deg); -->
                 transform-origin: top right;
-                <!-- transform-box: fill-box; -->
                 animation: swingWave 2s ease-in-out forwards;
               }
 
@@ -292,9 +286,7 @@
               .cls-34,
               .cls-35,
               .cls-39 {
-                <!-- transform: rotate(5deg); -->
                 transform-origin: top right;
-                <!-- transform-box: fill-box; -->
                 animation: swingWave 2s ease-in-out forwards;
               }
 
