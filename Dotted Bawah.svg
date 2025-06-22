@@ -13,6 +13,36 @@
       .cls-3 {
         fill: url(#linear-gradient);
       }
+
+                  .cls-1,
+            .cls-2,
+            .cls-3 {
+              transform-origin: center;
+              transform-box: fill-box;
+              animation: scaleWave 1.5s ease-in-out infinite;
+            }
+
+            .cls-1 {
+              animation-delay: 0s;
+            }
+
+            .cls-2 {
+              animation-delay: 0.5s;
+            }
+
+            .cls-3 {
+              animation-delay: 1s;
+            }
+
+            @keyframes scaleWave {
+              0%,
+              100% {
+                transform: scale(0.8);
+              }
+              50% {
+                transform: scale(1.1);
+              }
+            }
     </style>
     <linearGradient id="linear-gradient" x1="-1.8" y1="-.57" x2="25.95" y2="3.51" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
